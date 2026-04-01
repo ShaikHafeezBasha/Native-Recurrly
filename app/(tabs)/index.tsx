@@ -12,7 +12,7 @@ export default function App() {
         href="/onboarding"
         className="mt-4 p-4 rounded bg-primary text-white"
       >
-        Go to onboarding
+        Go to onboarding1
       </Link>
 
       <Link
