@@ -1,12 +1,6 @@
 import "@/global.css";
-import { Link } from "expo-router";
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router";
 
 export default function SignIn() {
-  return (
-    <View>
-      <Text>SignIn</Text>
-      <Link href="/(auth)/sign-up">Create Account</Link>
-    </View>
-  );
+  return <Redirect href="/(tabs)" />;
 }
