@@ -72,6 +72,7 @@ export default function App() {
           </>
         )}
         data={HOME_SUBSCRIPTIONS}
+        keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <SubscriptionCard
             {...item}
