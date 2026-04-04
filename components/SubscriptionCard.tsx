@@ -1,9 +1,9 @@
 import {
-    formatCurrency,
-    formatStatusLabel,
-    formatSubscriptionDateTime,
+  formatCurrency,
+  formatStatusLabel,
+  formatSubscriptionDateTime,
 } from "@/lib/utils";
-import clsx from "clsx";
+import { clsx } from "clsx";
 import { Image, Pressable, Text, View } from "react-native";
 
 const fallback = "Not Provided";
